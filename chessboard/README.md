@@ -7,5 +7,4 @@ It demonstrates the use of:
 - **CSS selectors & styling** for alternating black and white squares  
 - **Basic layout concepts** such as width, height, and background colors  
 
-
-
+![Chessboard Screenshot](chessboard.png)
