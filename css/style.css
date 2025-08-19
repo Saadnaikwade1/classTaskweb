@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+}
+p~h1{
+    background-color: #333;
+    color:white;
+    font-weight: bold;
+    padding:0.5em;
+}
+div~p{
+    color: red;
+}
+a:hover{
+    color:red;
+
+}
+a{
+    text-decoration:none;
+    text-align: center;
+    text-shadow: rgb(0, 255, 170) 1px 0 10px;
+}
+li:first-child{
+    background-color: yellow;
+    width:40px;
+}
+.primary-btn{
+    background-color: #007bff;
+    color:white;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color:darkred;
+    border-radius: 50%;
+    border: 2px dotted red;
+}
+li:nth-child(even){
+    color:blue;
+}
+

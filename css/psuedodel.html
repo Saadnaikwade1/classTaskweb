@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+    <style>
+        ::placeholder{
+            color: red;
+        }
+        ::after{
+            color:green
+        }
+        p::before{
+            content: '✓';
+            color: green;
+        }
+        ::selection{
+            color:white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, atque.</p>
+    <input type="text" placeholder="Enter your name">
+</body>
+</html>

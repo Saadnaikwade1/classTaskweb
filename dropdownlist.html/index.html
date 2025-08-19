@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>drop down list</title>
+  </head>
+  <body>
+    <form>
+      <select>
+        <option value="" disabled selected>-- select option--</option>
+        <optgroup label="Computers">
+          <option value="1">cse</option>
+          <option value="2">DS</option>
+          <option value="3">AIML</option>
+          <option value="4">IOT</option>
+          <option value="5">SCs</option>
+        </optgroup>
+        <optgroup label="Electornics">
+          <option value="6">ECE</option>
+          <option value="7">VLSI</option>
+          <option value="8">EMBEDED SYSTEM</option>
+        </optgroup>
+      </select>
+      <select multiple>
+        <option value="1">Hydrabad</option>
+        <option value="2">Chennai</option>
+        <option value="3">Bengaluru</option>
+        <option value="4">Mumbai</option>
+        <option value="5">Delhi</option>
+      </select>
+
+      <input list="dl" />
+      <datalist id="dl">
+        <option value="html"></option>
+        <option value="css"></option>
+        <option value="js"></option>
+        <option value="java"></option>
+        <option value="c++"></option>
+        <option value="c#"></option>
+      </datalist>
+    </form>
+  </body>
+</html>
