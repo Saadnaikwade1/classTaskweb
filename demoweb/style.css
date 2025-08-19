@@ -29,13 +29,147 @@ nav {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.menu a:hover {
+.menu a:hover{
   color: crimson;
-  font-size: 120%;
-  font-style: italic;
+  border-bottom: 5px solid yellow;
+  transform:scale(1.1);
   font-weight: 700;
 }
 #active {
   color: chocolate;
 }
+.bnr{
+  width: 100%;
+  height: 85vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bnrimg,.layer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.layer{
+  background:linear-gradient(rgba(200, 100, 27,0.7),rgba(120,200,150,0.7));
+}
+.bnrtext{
+  position: relative;
+  width: 35%;
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 5px;
+}
+.bnr h1{
+  color: brown;
+  font-size: 25px;
+}
+.bnr p{
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 18px;
+  color:blue;
+  text-align-last: center;
+}
+.bnr button,.gameinfo button{
+  font-size: 20px;
+  background: transparent;
+  border-radius: 5px;
+  padding:5px 15px;
+  color: white;
+  font-weight: 700;
+}
 
+/* games */
+.games{
+  width: 100%;
+  background-color: rgb(73, 139, 139);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px 0px;
+
+}
+
+.card{
+  width: 40%;
+  margin: auto;
+  border: 2px solid rgb(150, 77, 77);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  background:linear-gradient(rgba(78, 136, 217, 0.7), rgba(245, 224, 69, 0.7)) ;
+}
+.card img{
+  width:50%;
+  height: 200px;
+  border-radius: 10px;
+}
+.gameinfo{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gameinfo p:first-child{
+  font-size: 25px;
+  color: crimson;
+  font-weight: bolder;
+  text-align: center;
+}
+.gameinfo p{
+  font-size: 15px;
+  color:white;
+  text-align: justify;
+  word-break: break-all;
+}
+.games>h1{
+  width: 100%;
+  color: aqua;
+  margin: 20px 0px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* founders profiles */
+
+.founder{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(179, 93, 93,0.8) 50%, rgba(201, 201, 40,0.8) 50%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profiles{
+  width: 75%;
+  height:40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile{
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  border: 2px solid black;
+}
