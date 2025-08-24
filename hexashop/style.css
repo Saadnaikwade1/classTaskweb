@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+}
+.con {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.navcon {
+  width: 100%;
+  height: 14vh;
+}
+nav {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Poppins;
+  padding: 0px 130px;
+  box-sizing: border-box;
+  border-bottom: 3px dotted rgba(152, 149, 149, 0.3);
+}
+nav .logo {
+  width: 200px;
+  height: 60px;
+  margin-left: 30px;
+}
+nav .menu {
+  display: flex;
+  gap: 40px;
+}
+.menu a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #2a2a2a;
+}
+.menu a:hover {
+  color: #aaaaaa;
+}
+.logo {
+  width: 30%;
+}
+.menu a i {
+  font-size: 7px;
+}
+.bnr {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+.leftbnr {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.leftbnr img {
+  width: 95%;
+  height: 94.5%;
+}
+
+.leftlayer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  padding-left: 100px;
+  box-sizing: border-box;
+  left: 0px;
+  top: 0px;
+  color: #ffffff;
+  gap: 25px;
+}
+.leftlayer h1 {
+  font-weight: 700;
+  font-size: 52px;
+}
+.leftlayer p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+}
+.leftlayer button {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 10px 20px;
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.leftlayer button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.rightbnr {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.bnrcon {
+  width: 50%;
+  height: 50%;
+}
+.bnrcon img {
+  width: 95%;
+  height: 95%;
+}
+
+
